@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/Module/etc/module.xsd">
+    <module name="${1:Vendor}_${2:Module}" setup_version="${3:0.0.0}">
+    	${4:<sequence>
+            <module name="${5:Vendor}_${6:Module}"/>
+        </sequence>}
+    </module>
+</config>
+]]></content>
+	<tabTrigger>m2-module</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

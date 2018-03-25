@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::MODULE,
+    '${1:Vendor}_${2:Module}',
+    __DIR__
+);
+]]></content>
+	<tabTrigger>m2-module</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

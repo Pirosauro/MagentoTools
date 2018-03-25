@@ -1,0 +1,7 @@
+[
+	{
+		"caption": "Copy to Theme Folder",
+		"command": "mage_tools_copy",
+		"args": { "paths": [] }
+	}
+]
